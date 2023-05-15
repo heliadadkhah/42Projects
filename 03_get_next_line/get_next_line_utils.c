@@ -1,4 +1,14 @@
-
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hdadkhah <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/05/15 16:12:31 by hdadkhah          #+#    #+#             */
+/*   Updated: 2023/05/15 16:12:37 by hdadkhah         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include "get_next_line.h"
 
 char	*ft_strjoin(char *s1, char *s2)
@@ -44,8 +54,6 @@ size_t	ft_strlen(const char *str)
 	}
 	return (count);
 }
-
-
 
 char	*ft_strchr(const char *s, int c)
 {
