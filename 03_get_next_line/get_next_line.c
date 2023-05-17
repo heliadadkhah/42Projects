@@ -46,6 +46,7 @@ char	*read_loop(int fd, char **str, char *nl_chars)
 	if (rd < 0)
 	{
 		free (*str);
+		nl_chars[0] = 0;
 		return (NULL);
 	}
 	nl_chars[rd] = '\0';
